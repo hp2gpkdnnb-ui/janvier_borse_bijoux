@@ -1,8 +1,8 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Borse artigianali in pelle</title>
+  <title>Borse artigianali in pelle — Janvier Bags</title>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
   <style>
     body {
@@ -18,28 +18,67 @@
       width: 100%;
       height: auto;
       display: block;
-      margin: 0 0 28px;
+      margin: 0 0 32px;
     }
-    h1 {
+    .artigianalita {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+    .artigianalita img {
+      width: 31%;
+      height: auto;
+    }
+    .testo-artigianalita {
       font-style: italic;
-      font-size: 40px;
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    .borsa {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .borsa img {
+      width: 70%;
+      max-width: 600px;
+      height: auto;
+    }
+    .autenticita {
+      text-align: center;
+      font-style: italic;
+      font-size: 26px;
       font-weight: 600;
-      margin: 0 0 18px;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
     }
-    p {
-      font-style: italic;
-      margin: 0 0 16px;
+    .numero {
+      text-align: center;
+      font-size: 52px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      margin: 0;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="intestazione.jpg" alt="Borsa artigianale in pelle">
+    <img src="IMG_3623.jpg" alt="Janvier Bags">
   </header>
 
-  <h1>Borse artigianali in pelle</h1>
-  <p>Borse artigianali in pelle, create con cura da artigiani. Ogni pezzo nasce a mano, con tempi e attenzione che la produzione di serie non può dare.</p>
-  <p>Ogni borsa è numerata e autenticata da un NFT, che certifica la lavorazione artigianale e l’alta qualità del capo.</p>
-  <p>Per ogni modello sarà disponibile un repository dedicato, come garanzia di origine, numero e autenticità.</p>
+  <div class="artigianalita">
+    <img src="IMG_3622.jpg" alt="Borsa in lavorazione">
+    <img src="IMG_3621.jpg" alt="Cucitura artigianale">
+    <img src="IMG_3620.jpg" alt="Dettaglio borsa">
+  </div>
+
+  <p class="testo-artigianalita">Borse di grande qualità, create con cura da artigiani. Ogni borsa è numerata: questo codice garantisce l'autenticità della borsa e l'artigianalità della stessa. Sono tutte borse numerate.</p>
+
+  <div class="borsa">
+    <img src="FOTO-BORSA.jpg" alt="Borsa Janvier Bags">
+  </div>
+
+  <p class="autenticita">Questa borsa è autentica</p>
+  <p class="numero">10/59</p>
 </body>
 </html>
